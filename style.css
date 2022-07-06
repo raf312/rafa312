@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --text-color-footer: #d4d4d4;
+}
+
+body.dark {
+  --bg-color: #00082f;
+  --text-color: #ffffff;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  font-family: "Kantumruy Pro";
+  text-align: center !important;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatars {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: solid 4px green;
+}
+
+h1 {
+  margin-top: 14px;
+  margin-bottom: 2px;
+}
+
+p.subtitle {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 30px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background: #364fc7;
+}
+
+ul li a {
+  margin-bottom: 14px;
+  height: 50px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.7px;
+  background: #4263eb;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+}
+
+footer {
+  color: var(--text-color-footer);
+  font-size: 12px;
+}
