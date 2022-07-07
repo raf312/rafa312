@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  font-family: "Kantumruy Pro";
+  font-family: "Fira Code";
   text-align: center !important;
   width: 300px;
   margin: 60px auto;
